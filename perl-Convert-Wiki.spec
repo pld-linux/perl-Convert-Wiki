@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Convert
 %define	pnam	Wiki
 Summary:	Convert::Wiki - Convert HTML/POD/txt from/to Wiki code
